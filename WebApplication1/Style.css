@@ -1,0 +1,60 @@
+﻿*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box;
+}
+nav{
+    background:#2fcdcd;
+    height:80px;
+    width:100%;
+}
+.enlace{
+    position:absolute;
+    padding:20px 50px;
+}
+.logo{
+    height:40px;
+}
+nav ul{
+    float:right;
+    margin-right:20px;
+}
+nav li{
+    display:inline-block;
+    line-height:80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:#fff;
+    font-size:18px;
+    padding:7px 13px;
+    border-radius:3px;
+    text-transform:uppercase;
+}
+li a.active, li a:hover{
+    background:#000090;
+    transition:.5s;
+}
+.checkbtn{
+    font-size:30px;
+    color:#fff;
+    float:right;
+    line-height:80px;
+    margin-right:40px;
+    cursor:pointer;
+    display:none;
+}
+#check{
+    display:none;
+}
+section{
+    background: url(https://imgs.search.brave.com/35maEUGFzFN81AqRA_7il-vb68-QA6pVQJ2gQRBadIM/rs:fit:1200:1051:1/g:ce/aHR0cHM6Ly93d3cu/Y3VsdHVyYS5nYWwv/c2l0ZXMvZGVmYXVs/dC9maWxlcy9pbWFn/ZXMvbm92YXMvaW1h/Z2VuXzEzMzM3Lmpw/Zw) no-repeat;
+    background-size:cover;
+    background-position:center center;
+    height:calc(100vh - 80px);
+}
+.bodyalta{
+    background:red;
+}
