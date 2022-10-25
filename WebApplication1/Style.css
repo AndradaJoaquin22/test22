@@ -1,4 +1,5 @@
-﻿*{
+/*Parte del index*/
+*{
     padding:0;
     margin:0;
     text-decoration:none;
@@ -13,6 +14,8 @@ nav{
 .enlace{
     position:absolute;
     padding:20px 50px;
+    top: -12px;
+    left: -24px;
 }
 .logo{
     height:40px;
@@ -55,6 +58,44 @@ section{
     background-position:center center;
     height:calc(100vh - 80px);
 }
+/*Parte del alta*/
 .bodyalta{
-    background:red;
+    background:#fff;
+}
+.containerGrilla {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+    min-height: 400px;
+    min-width: 100%;
+    max-width: 100%;
+    background: #6530ff;
+    margin:auto;
+}
+.guardar {
+    color: blue;
+}
+.grilla{
+    align-items:center;
+    border:none;
+    background-color:#F0F1F3;
+}
+.grilla tr{
+    text-align:left;
+    border-bottom:solid;
+    border-color:#ffffff;
+    border-width:10px;
+    font-size:20px;
+}
+.grilla th{
+    border:none;
+    background-color:#C2FF85;
+    padding:5px;
+}
+
+.grilla td{
+    border:none;
+    padding:15px;
+    margin:5px;
 }
